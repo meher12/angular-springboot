@@ -1,0 +1,79 @@
+# spring backend
+
+### Eclipse ### 
+.classpath  
+.editorconfig  
+.factorypath  
+.gitattributes  
+.project  
+.settings/  
+bin/  
+target/
+ 
+### Maven ###
+target/
+.mvn/ 
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# angular frontend
+
+# Outputs
+    2 bazel-*
+    3 test-project-host-*
+    4 dist/
+    5 dist-schema/
+    6 
+    7 # IDEs
+    8 jsconfig.json
+    9 
+   10 # Intellij IDEA/WebStorm
+   11 # https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+   12 .idea/inspectionProfiles/
+   13 .idea/**/compiler.xml
+   14 .idea/**/encodings.xml
+   15 .idea/**/workspace.xml
+   16 .idea/**/tasks.xml
+   17 .idea/**/usage.statistics.xml
+   18 .idea/**/dictionaries
+   19 .idea/**/shelf
+   20 
+   21 # Also ignore code styles because .editorconfig is used instead.
+   22 .idea/codeStyles/
+   23 
+   24 # VSCode
+   25 # https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+   26 .vscode/
+   27 !.vscode/settings.json
+   28 !.vscode/tasks.json
+   29 !.vscode/launch.json
+   30 !.vscode/extensions.json
+   31 **/*.code-workspace
+   32 
+   33 # Typings file.
+   34 typings/
+   35 
+   36 # Misc
+   37 coverage/
+   38 node_modules/
+   39 tmp/
+   40 npm-debug.log*
+   41 yarn-error.log*
+   42 .ng_pkg_build/
+   43 .ng-dev.log
+   44 .ng-dev.err*.log
+   45 .ng-dev.user*
+   46 .husky/_
+   47 .bazelrc.user
+   48 .eslintcache
+   49 
+   50 # Mac OSX Finder files.
+   51 **/.DS_Store
+   52 .DS_Store
